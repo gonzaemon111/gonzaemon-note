@@ -87,5 +87,17 @@ module.exports = {
     sidebar: 'auto',
     displayAllHeaders: true,
     activeHeaderLinks: false
-  }
+  },
+  plugins: [
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': process.env.GA_TRACKING_ID
+      }
+    ]
+  ]
 }
+
+console.log("---------------")
+console.log(process.env.USER_NAME)
+console.log("---------------")
