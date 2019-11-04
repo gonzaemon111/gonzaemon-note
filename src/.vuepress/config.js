@@ -12,8 +12,17 @@ module.exports = {
     ['meta',{ name:"og:type", content:"https://gonzaemon-note.netlify.com"}],
     ['meta',{ name:"og:url", content:"https://gonzaemon-note.netlify.com"}],
     ['meta',{ name:"og:site_name", content:"Gonzaemonの技術ブログ"}],
+    ['meta',{ name:"twitter:card", content:"summary"}],
+    ['meta',{ name:"twitter:site", content:"summary"}],
     // ['meta',{ name:"og:image", content:"http://test.jp/logo.png"}],
   ],
+  locales: {
+    '/': {
+      lang: 'ja',
+      title: 'Gonzaemonの技術ブログ',
+      description: '学生エンジニアGonzaemonの技術ブログ'
+    }
+  },
   themeConfig: {
     lang: Object.assign(require('vuepress-theme-meteorlxy/lib/langs/en-US'), {
       home: 'Welcome to Gonzaemon\'s Blog!',

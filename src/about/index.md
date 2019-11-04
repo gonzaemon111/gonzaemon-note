@@ -1,8 +1,5 @@
 ---
 top: true
-category: profile
-tags:
-  - profile
 date: 2019-11-04
 sidebar: auto
 title: Gonzaemonについて
