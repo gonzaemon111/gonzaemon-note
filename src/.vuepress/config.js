@@ -13,7 +13,7 @@ module.exports = {
     ['meta',{ name:"og:url", content:"https://gonzaemon-note.netlify.com"}],
     ['meta',{ name:"og:site_name", content:"Gonzaemonの技術ブログ"}],
     ['meta',{ name:"twitter:card", content:"summary"}],
-    ['meta',{ name:"twitter:site", content:"summary"}],
+    ['meta',{ name:"twitter:site", content:"@gsxe_14914"}],
     // ['meta',{ name:"og:image", content:"http://test.jp/logo.png"}],
   ],
   locales: {
