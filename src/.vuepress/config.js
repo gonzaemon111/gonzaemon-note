@@ -1,11 +1,25 @@
 module.exports = {
+  title: 'Gonzaemonの技術ブログ',
+  description: '学生エンジニアGonzaemonの技術ブログ',
   dest: 'dist',
   theme: 'meteorlxy',
+  head: [
+    ['link', { href: 'https://use.fontawesome.com/releases/v5.11.2/css/all.css', rel: 'stylesheet'}],
+    ['link', { rel: 'icon', href: '/img/favicon.ico' }],
+    ['meta',{ name:"keywords", content:"学生エンジニア, Gonzaemon, gonzaemon, gonzo, Gonzo, ブログ, 技術ブログ, vuepress"}],
+    ['meta',{ name:"og:title", content:"Gonzaemonの技術ブログ"}],
+    ['meta',{ name:"og:description", content:"学生エンジニアGonzaemonの技術ブログ"}],
+    ['meta',{ name:"og:type", content:"https://gonzaemon-note.netlify.com"}],
+    ['meta',{ name:"og:url", content:"https://gonzaemon-note.netlify.com"}],
+    ['meta',{ name:"og:site_name", content:"Gonzaemonの技術ブログ"}],
+    // ['meta',{ name:"og:image", content:"http://test.jp/logo.png"}],
+  ],
   themeConfig: {
     lang: Object.assign(require('vuepress-theme-meteorlxy/lib/langs/en-US'), {
       home: 'Welcome to Gonzaemon\'s Blog!',
       posts: '記事一覧',
     }),
+    sidebar: 'auto',
     personalInfo: {
       nickname: 'gonzaemon',
       description: '某W大学情報理工学科4年',

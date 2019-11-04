@@ -3,8 +3,8 @@ category: hello
 tags:
   - world
 date: 2019-01-21
+sidebar: auto
 title: Hello, world!
-vssue-title: Hello, world!
 ---
 
 This is my first post.
