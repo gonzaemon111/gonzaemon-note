@@ -10,7 +10,7 @@ module.exports = {
     ['meta',{ name:"og:title", content:"Gonzaemonの技術ブログ"}],
     ['meta',{ name:"og:description", content:"学生エンジニアGonzaemonの技術ブログ"}],
     ['meta',{ name:"og:type", content:"https://gonzaemon-note.netlify.com"}],
-    ['meta',{ name:"og:url", content:"https://gonzaemon-note.netlify.com"}],
+    ['meta',{ name:"og:url", content:"website"}],
     ['meta',{ name:"og:site_name", content:"Gonzaemonの技術ブログ"}],
     ['meta',{ name:"twitter:card", content:"summary"}],
     ['meta',{ name:"twitter:site", content:"@gsxe_14914"}],
@@ -22,6 +22,9 @@ module.exports = {
       title: 'Gonzaemonの技術ブログ',
       description: '学生エンジニアGonzaemonの技術ブログ'
     }
+  },
+  markdown: {
+    lineNumbers: true
   },
   themeConfig: {
     lang: Object.assign(require('vuepress-theme-meteorlxy/lib/langs/en-US'), {
