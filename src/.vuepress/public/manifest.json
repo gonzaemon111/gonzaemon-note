@@ -1,0 +1,43 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "Gonzaemon Blog",
+  "short_name": "Gonzaemon",
+  "description": "学生エンジニアGonzaemonの技術ブログ",
+  "default_locale": "ja_JP",
+  "start_url": "/",
+  "Scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#8cdbf9",
+  "background_color": "#8cdbf9",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "img/favicons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "img/favicons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "img/favicons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "img/favicons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "img/favicons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    }
+  ],
+  "splash_pages": null
+}
