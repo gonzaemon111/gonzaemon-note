@@ -5,7 +5,15 @@ module.exports = {
   theme: 'meteorlxy',
   head: [
     ['link', { href: 'https://use.fontawesome.com/releases/v5.11.2/css/all.css', rel: 'stylesheet'}],
-    ['link', { rel: 'icon', href: '/img/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/img/favicon.png' }],
+    ['link', { rel: 'manifest', href: '/manifest.json' }],
+    ['link', { rel: 'apple-touch-icon', href: '/img/favicons/apple-icon-114x114.png' }],
+    ['link', { rel: 'apple-touch-icon', href: '/img/favicons/apple-icon-120x120.png' }],
+    ['link', { rel: 'apple-touch-icon', href: '/img/favicons/apple-icon-144x144.png' }],
+    ['link', { rel: 'apple-touch-icon', href: '/img/favicons/apple-icon-152x152.png' }],
+    ['link', { rel: 'apple-touch-icon', href: '/img/favicons/apple-icon-180x180.png' }],
+    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' }],
     ['meta',{ name:"keywords", content:"学生エンジニア, Gonzaemon, gonzaemon, gonzo, Gonzo, ブログ, 技術ブログ, vuepress"}],
     ['meta',{ name:"og:title", content:"Gonzaemonの技術ブログ"}],
     ['meta',{ name:"og:description", content:"学生エンジニアGonzaemonの技術ブログ"}],
@@ -94,10 +102,16 @@ module.exports = {
       {
         'ga': process.env.GA_TRACKING_ID
       }
+    ],
+    [
+      '@vuepress/pwa',
+      {
+        serviceWorker: true,
+        updatePopup: {
+          message: "新しい記事が投稿されました。",
+          buttonText: "Refresh"
+        }
+      }
     ]
   ]
 }
-
-console.log("---------------")
-console.log(process.env.USER_NAME)
-console.log("---------------")
