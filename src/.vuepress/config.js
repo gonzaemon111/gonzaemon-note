@@ -13,7 +13,10 @@ module.exports = {
     ['link', { rel: 'apple-touch-icon', href: '/img/favicons/apple-icon-152x152.png' }],
     ['link', { rel: 'apple-touch-icon', href: '/img/favicons/apple-icon-180x180.png' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' }],
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'default' }],
+    ['meta', { name: 'msapplication-TileColor', content: '#8cdbf9' }],
+    ['meta', { name: 'msapplication-TileImage', content: '/img/favicons/ms-icon-144x144.png' }],
+    ['meta', { name: 'theme-color', content: '#8cdbf9' }],
     ['meta',{ name:"keywords", content:"学生エンジニア, Gonzaemon, gonzaemon, gonzo, Gonzo, ブログ, 技術ブログ, vuepress"}],
     ['meta',{ name:"og:title", content:"Gonzaemonの技術ブログ"}],
     ['meta',{ name:"og:description", content:"学生エンジニアGonzaemonの技術ブログ"}],
@@ -35,7 +38,7 @@ module.exports = {
     lineNumbers: true
   },
   themeConfig: {
-    lang: Object.assign(require('vuepress-theme-meteorlxy/lib/langs/en-US'), {
+    lang: Object.assign(require('vuepress-theme-meteorlxy/lib/langs/ja-JP'), {
       home: 'Welcome to Gonzaemon\'s Blog!',
       posts: '記事一覧',
     }),
@@ -43,8 +46,9 @@ module.exports = {
     personalInfo: {
       nickname: 'gonzaemon',
       description: '某W大学情報理工学科4年',
+      email: 'gonzaemon@gonzaemon.page',
       location: 'Tokyo Japan',
-      avatar: '/img/MyProfile.jpg',
+      avatar: '/img/profile.jpg',
       sns: {
         github: {
           account: 'gonzaemon111',
@@ -59,8 +63,7 @@ module.exports = {
     nav: [
       { text: 'Home', link: '/', exact: true },
       { text: 'Posts', link: '/posts/' },
-      { text: 'About', link: '/about/', exact: false },
-      { text: 'PortFolio', link: 'https://gonzaemon-portfolio.netlify.com', exact: false }
+      { text: 'About', link: '/about/', exact: false }
     ],
     footer: {
       // Show 'Powered by VuePress' or not (enable it to support VuePress)
