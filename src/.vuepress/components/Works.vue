@@ -14,6 +14,7 @@
       <!-- <div class="card-flap flap1"> -->
         <div class="card-description">
           <small> 制作期間 : {{ item.term }} </small>
+          <br>
           {{ item.description }}
         </div>
         <!-- <div class="card-flap flap2">
@@ -38,6 +39,12 @@ export default {
           description: '早稲田大学生向け時間割単位管理アプリケーション！Dockerで開発環境を整えて4種類のDB(MySQL, Redis, ElasticSearch, DynamoDB)を使用。Ruby on Railsは最新6.0を使っている'
         },
         {
+          title: 'Gestione',
+          image: '/img/gestione.png',
+          term: '1週間',
+          description: 'Ruby on Railsを使った開発。目標をベースとしたタスク・時間管理アプリケーションです。現在運用中です。https://gestione-app.herokuapp.com/'
+        },
+        {
           title: 'MyDiary',
           image: '/img/MyDiary.jpg',
           term: '１ヶ月',
@@ -56,14 +63,8 @@ export default {
           description: 'HandWritten Character Recoginition(手書き文字認識)で機械学習の勉強として実装してみました。初Pythonだったので、文法の勉強も一からはじめました。'
         },
         {
-          title: 'PortFolio',
-          image: '/img/PortFolio.jpg',
-          term: '2日',
-          description: 'Vue.jsを使って、フロントエンド入門として作成。Google AnaylyticsやFireBase、レスポンシブデザインなどの勉強も兼ねて作成しました。今後はNuxtなどにも幅を広げていきたいです'
-        },
-        {
           title: '技術ブログ',
-          image: '/img/note.jpg',
+          image: '/img/note.png',
           term: '1日',
           description: '最近流行りの静的サイトジェネレーターVuepressを使って技術ブログを作成しました。制作期間1日という爆速で作りました。'
         }
