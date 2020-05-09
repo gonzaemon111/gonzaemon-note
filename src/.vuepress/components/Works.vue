@@ -42,7 +42,7 @@ export default {
           title: 'Gestione',
           image: '/img/gestione.png',
           term: '1週間',
-          description: 'Ruby on Railsを使った開発。目標をベースとしたタスク・時間管理アプリケーションです。現在運用中です。https://gestione-app.herokuapp.com/'
+          description: 'Ruby on Railsを使った開発。目標をベースとしたタスク・時間管理アプリケーションです。現在運用中です。https://gestione.app/'
         },
         {
           title: 'MyDiary',
