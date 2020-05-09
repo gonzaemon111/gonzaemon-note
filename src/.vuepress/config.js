@@ -45,7 +45,7 @@ module.exports = {
     sidebar: 'auto',
     personalInfo: {
       nickname: 'gonzaemon',
-      description: '某W大学情報理工学科4年',
+      description: '某W大学情報理工専攻修士1年',
       email: 'gonzaemon@gonzaemon.page',
       location: 'Tokyo Japan',
       avatar: '/img/profile.jpg',
