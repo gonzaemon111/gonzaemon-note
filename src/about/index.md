@@ -1,6 +1,6 @@
 ---
 top: true
-date: 2019-11-04
+date: 2020-05-01
 sidebar: auto
 title: Gonzaemonについて
 meta:
@@ -8,11 +8,15 @@ meta:
     content: 学生エンジニアGonzaemonについての記事です
   - name: keywords
     content: Gonzaemon gonzaemon gonzo Gonzo vuepress 学生エンジニア スキル 作品
+  - name: og:type
+    content: website
+  - name: og:image
+    content: /img/note.png
 ---
 
 ## Gonzaemonについて
 
-某W大学に通う4年生
+某W大学院に通う修士1年生
 
 趣味は、適当にオープンになってるAPI叩いたり、アルゴリズムのコード書いたりしてます。
 
